@@ -1,0 +1,4 @@
+test.o: test.c calc.h stack.h dlist.h
+dlist.o: dlist.c dlist.h
+stack.o: stack.c stack.h dlist.h
+calc.o: calc.c calc.h stack.h dlist.h
